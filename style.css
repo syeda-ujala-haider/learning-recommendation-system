@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+h1{
+    color: wheat;
+}
+#p1{
+    color: blueviolet;
+}
+#p2{
+    color: aqua;
+}
+.odd{
+    color: blueviolet;
+}
+.even{
+    color: aquamarine;
+}

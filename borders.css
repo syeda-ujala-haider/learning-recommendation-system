@@ -1,0 +1,11 @@
+h1{
+    border: 3px solid brown ;
+    border-radius: 100px;
+}
+p{
+    border-bottom: 3px solid rgb(136, 1, 1);
+    border-top: 3px solid rgb(0, 108, 45);
+    border-left:3px solid rgb(108, 0, 108) ;
+    border-right: 3px solid rgb(108, 58, 0);
+    border-radius: 10px;
+}
