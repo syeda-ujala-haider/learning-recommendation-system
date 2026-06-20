@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Feedback Form</h1>
+        <form action="index.php" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="john dav" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="john12@gmail.com" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone #</label>
+                <input type="tel" id="phone" placeholder="0306-2345876" pattern="[0-9]{4}-[0-9]{7}" required>
+            </div>
+            <div class="form-group">
+                <label for="regno">Registeration #</label>
+                <input type="tel" id="regno" placeholder="2020-ag-3476" pattern="[0-9]{4}-ag-[0-9]{4}" required>
+            </div>
+            <div class="form-group">
+                <label for="topic">Topics</label>
+                <select id="topic">
+                    <option value="maths">Mathematics</option>
+                    <option value="coding">Coding</option>
+                    <option value="science">Science</option>
+                    <option value="computer">Computer</option>
+                    <option value="Psycology">Psycology</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="physics">Physics</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="skill">Skill level:</label>
+                <div class="radio-group">
+                    <input type="radio" id="beginner" name="skill" value="beginner" >
+                    <label for="beginner">Beginner</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="intermediate" name="skill" value="intermediate" >
+                    <label for="intermediate">Intermediate</label>
+                </div>
+                <div class="radio-group">
+                    <input type="radio" id="higher" name="skill" value="higher" >
+                    <label for="higher">Higher</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="descrition">Describe your issue</label>
+                <textarea id="description" name="description" required></textarea>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to share my feedback</label>
+            </div>
+            <button type="submit">Submit</button>
+
+     </form>
+    </div>
+     
+</body>
+</html>

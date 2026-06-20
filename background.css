@@ -1,0 +1,13 @@
+body{
+    background-image: url(images/favicon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color: rgb(4, 102, 102);
+}
+p{
+    color: rgb(98, 56, 2);
+}

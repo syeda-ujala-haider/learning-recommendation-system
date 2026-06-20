@@ -1,0 +1,15 @@
+#container{
+    border: 2px solid;
+
+}
+/*#container > p{child
+    background-color: rgb(213, 213, 24);
+}*/
+/*#container ~ p{general sblings of container
+    background-color: rgb(213, 213, 24);
+}*/
+
+#container + p{/*next sibling*/
+    background-color: bisque;
+}
+

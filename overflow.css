@@ -1,0 +1,9 @@
+div{
+    border: 2px solid;
+    height: 75px ;
+    /*overflow: clip;
+    overflow-clip-margin: 13px;*/
+    /*overflow: scroll;*/
+    /*visible means everthing will be visble outside of box and hidden means hidden*/
+    overflow: auto;
+}

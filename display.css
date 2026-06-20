@@ -1,0 +1,13 @@
+div{
+    background-color: rgb(245, 3, 3);
+    width: 100px;
+    height: 100px;
+    display: flex;
+   
+}
+span{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}

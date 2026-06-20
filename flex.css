@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+    /*align-items: flex-end;
+    /*justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;*/
+}
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em ;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+   
+    background-color: beige;
+    align-self: center;
+}
+#box2{
+    background-color: rgb(6, 3, 200);
+    order: 1;
+}
+#box3{
+    background-color: rgb(250, 1, 126);
+}
+#box4{
+    background-color: rgb(235, 4, 23);
+}
+#box5{
+   
+    background-color: beige;
+}
+#box6{
+    background-color: rgb(6, 3, 200);
+}
+#box7{
+    background-color: rgb(250, 1, 126);
+}
+#box8{
+    background-color: rgb(235, 4, 23);
+}

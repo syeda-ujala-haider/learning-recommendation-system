@@ -1,0 +1,20 @@
+body{
+    background-color: bisque;
+}
+.galary{
+    display: inline-block;
+    border: 1px solid rgb(136, 136, 136);
+    margin: 5px;
+    width: 200px;
+}
+.galary .description{
+    padding: 10px;
+    text-align: center;
+}
+.galary:hover{
+    border: 1px solid blue;
+}
+.galary img{
+    width: 100%;
+    height: auto;
+}
